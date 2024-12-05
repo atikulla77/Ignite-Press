@@ -56,3 +56,16 @@
     right: -250px;
   }
 }
+
+/* ```````````````````````Books`````````````````````` */
+.booksMoreInfoArrowAnimation:hover .booksMoreInfoArrow{
+  animation: MoreInfoArrowAnimation 0.3s forwards;
+}
+@keyframes MoreInfoArrowAnimation {
+  0%{
+    right: 28px;
+  }
+  100%{
+    right: 24px;
+  }
+}
