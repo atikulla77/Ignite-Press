@@ -19,7 +19,7 @@ const Books = () => {
         >
           <div className=" xl:w-[1230px] w-[96%] relative z-[1] flex flex-col justify-center items-center">
             <div className="flex [@media(min-width:920px)]:flex-row flex-col items-center w-full [@media(min-width:920px)]:justify-center justify-start text-black z-10 py-[1.5rem]">
-              <div className="[@media(min-width:920px)]:w-[235px] [@media(min-width:725px)]:w-[80%] w-[100%]  [@media(min-width:725px)]:px-0 [@media(min-width:440px)]:px-[1rem] px-[0.3rem]">
+              <div className="[@media(min-width:920px)]:!w-[235px] [@media(min-width:725px)]:w-[80%] w-[100%]  [@media(min-width:725px)]:px-0 [@media(min-width:440px)]:px-[1rem] px-[0.3rem]">
                 <div className="[@media(min-width:470px)]:w-[235px] w-[205px] [@media(min-width:470px)]:h-[350px] h-[320px] overflow-hidden flex justify-center items-center mx-0 relative shadow-[0px_0px_4px_0px_#0000002e]">
                   <img
                     src={image}
@@ -57,7 +57,7 @@ const Books = () => {
               </div>
             </div>
             <div className="flex [@media(min-width:920px)]:flex-row flex-col items-center w-full [@media(min-width:920px)]:justify-center justify-start text-black z-10 py-[1.5rem]">
-              <div className="[@media(min-width:920px)]:w-[235px] [@media(min-width:725px)]:w-[80%] w-[100%]  [@media(min-width:725px)]:px-0 [@media(min-width:440px)]:px-[1rem] px-[0.3rem]">
+              <div className="[@media(min-width:920px)]:!w-[235px] [@media(min-width:725px)]:w-[80%] w-[100%]  [@media(min-width:725px)]:px-0 [@media(min-width:440px)]:px-[1rem] px-[0.3rem]">
                 <div className="[@media(min-width:470px)]:w-[235px] w-[205px] [@media(min-width:470px)]:h-[350px] h-[320px] overflow-hidden flex justify-center items-center mx-0 relative shadow-[0px_0px_4px_0px_#0000002e]">
                   <img
                     src={image}
